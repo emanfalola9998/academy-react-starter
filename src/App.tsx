@@ -1,7 +1,7 @@
-import FizzBuzzList from "./components/main"
+import FizzBuzzList from "./components/main";
 
 function App(): JSX.Element {
-  return <FizzBuzzList />
+  return <FizzBuzzList />;
 }
 
 export default App;
