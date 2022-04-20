@@ -1,14 +1,14 @@
-import isFizzBuzz from "./FizzBuzz";
+import {fizzBuzzCalculator} from "./FizzBuzz";
 
-test("isFizzBuzz returns a string, isFizzBuzzing the passed name", () => {
-  expect(isFizzBuzz(1)).toBe(1);
-  expect(isFizzBuzz(2)).toBe(2);
-  expect(isFizzBuzz(3)).toBe("Fizz");
-  expect(isFizzBuzz(4)).toBe(4);
-  expect(isFizzBuzz(5)).toBe("Buzz");
-  expect(isFizzBuzz(6)).toBe("Fizz");
-  expect(isFizzBuzz(7)).toBe(7);
-  expect(isFizzBuzz(8)).toBe(8);
-  expect(isFizzBuzz(9)).toBe("Fizz");
-  expect(isFizzBuzz(15)).toBe("FizzBuzz");
+test("fizzBuzzCalculator returns a string, fizzBuzzCalculatoring the passed name", () => {
+  expect(fizzBuzzCalculator(1)).toBe(1);
+  expect(fizzBuzzCalculator(2)).toBe(2);
+  expect(fizzBuzzCalculator(3)).toBe("Fizz");
+  expect(fizzBuzzCalculator(4)).toBe(4);
+  expect(fizzBuzzCalculator(5)).toBe("Buzz");
+  expect(fizzBuzzCalculator(6)).toBe("Fizz");
+  expect(fizzBuzzCalculator(7)).toBe(7);
+  expect(fizzBuzzCalculator(8)).toBe(8);
+  expect(fizzBuzzCalculator(9)).toBe("Fizz");
+  expect(fizzBuzzCalculator(15)).toBe("FizzBuzz");
 });
